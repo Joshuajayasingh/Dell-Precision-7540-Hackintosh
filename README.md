@@ -24,7 +24,7 @@ A Guide for hackintosh-ing on dell precision 7540
 
 ---
 
-## ✅ Working Features
+## Working Features
 
 - Internal display  
 - Integrated graphics (UHD 630)  
@@ -41,7 +41,7 @@ A Guide for hackintosh-ing on dell precision 7540
 
 ---
 
-## ⚠️ Issues
+## Issues
 
 - Headphone jack produces static
 - Thunderbolt dock not detected (untested)  
@@ -51,18 +51,11 @@ A Guide for hackintosh-ing on dell precision 7540
 
 ---
 
-## ❌ Not Working
+##  Not Working
 
 - Discrete GPU (Quadro RTX 3000)  
 - Card reader  
 - Rear HDMI and miniDP (connected to dGPU) — no external display output via these  
-
-
-## 🎧 Audio Improvement
-
-- Updated `AppleALC.kext` to a community-built version — headphone output now clean and without distortion  
-
-Source: [http://bbs.pcbeta.com/viewthread-1834012-1-2.html](http://bbs.pcbeta.com/viewthread-1834012-1-2.html)
 
 ---
 
