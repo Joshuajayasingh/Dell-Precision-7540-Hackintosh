@@ -46,8 +46,7 @@ A Guide for hackintosh-ing on dell precision 7540
 - Thunderbolt dock not detected (untested)  
 - Usb-C ports dont work
 - Only one display works at a time (internal or external via Thunderbolt)  
-- External monitor workaround: close lid → power on → open lid at desktop  
-- BIOS resets "Enable Switchable Graphics" after boot (iGPU gets disabled)  
+- External monitor workaround: close lid → power on → open lid at desktop   
 
 ---
 
