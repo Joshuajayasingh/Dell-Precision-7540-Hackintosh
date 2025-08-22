@@ -31,7 +31,6 @@ A Guide for hackintosh-ing on dell precision 7540
 - Audio  
 - Wi-Fi (`itlwm` and `AirportItlwm` tested)  
 - Ethernet  
-- Bluetooth  
 - Sleep/Wake  
 - Brightness hotkeys (F11/F12 work; Fn+Up/Down not mapped)  
 - Webcam  
@@ -43,8 +42,9 @@ A Guide for hackintosh-ing on dell precision 7540
 
 ## Issues
 
-- Headphone jack produces static
+- Headphone jack produces static 
 - Thunderbolt dock not detected (untested)  
+- Usb-C ports dont work
 - Only one display works at a time (internal or external via Thunderbolt)  
 - External monitor workaround: close lid → power on → open lid at desktop  
 - BIOS resets "Enable Switchable Graphics" after boot (iGPU gets disabled)  
@@ -53,9 +53,35 @@ A Guide for hackintosh-ing on dell precision 7540
 
 ##  Not Working
 
-- Discrete GPU (Quadro RTX 3000)  
+- Discrete GPU (Quadro T2000)  
 - Card reader  
+- Bluetooth
 - Rear HDMI and miniDP (connected to dGPU) — no external display output via these  
 
 ---
+
+##  Kexts Used 
+- Airportitwlm
+- AppleALC (with layout-id 15)
+- BrightnessKeys
+- IntelBluetoothFirmware
+- IntelBluetoothInjector
+- IntelBTPatcher
+- IntelMausi
+- Lilu
+- NVMeFix
+- RealtekCardReader
+- RealtekCardReaderFriend
+- SMCBatteryManager
+- SMCDellSensors
+- SMCProcessor
+- SMCSuperIO
+- USBPorts
+- VerbStub
+- VirtualSMC
+- VoltageShift
+- VoodooI2C
+- VoodooI2CHID
+- VoodooPS2Controller
+- WhateverGreen
 
