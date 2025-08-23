@@ -44,9 +44,7 @@ A Guide for hackintosh-ing on dell precision 7540
 
 - Headphone jack produces static 
 - Thunderbolt dock not detected (untested)  
-- Usb-C ports dont work
-- Only one display works at a time (internal or external via Thunderbolt)  
-- External monitor workaround: close lid → power on → open lid at desktop   
+- Usb-C ports dont work 
 
 ---
 
